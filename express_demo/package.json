@@ -1,0 +1,22 @@
+{
+  "name": "express_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start app.js", // 在不内存中开启一个不会停止的服务
+    "stop": "pm2 stop all", // 停止所有服务
+    "server": "node app.js" // 开启服务
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "multiparty": "^4.2.2",
+    "mysql": "^2.18.1",
+    "node-xlsx": "^0.17.1",
+    "nodemon": "^2.0.12",
+    "pm2": "^5.1.1"
+  }
+}
